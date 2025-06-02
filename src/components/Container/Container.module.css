@@ -1,0 +1,44 @@
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1440px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+}
+
+/* Laptops/Tablets - smaller than 1440px */
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1024px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+/* Tablets - smaller than 1024px */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/* Phones - smaller than 768px */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+/* Smallest phones: between 320px and 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}

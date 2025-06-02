@@ -1,0 +1,9 @@
+.logoLink {
+    display: inline-block;
+}
+
+.logo {
+    height: 136px;
+    cursor: pointer;
+    display: block;
+}
