@@ -1,0 +1,50 @@
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 8px;
+}
+
+.infoRow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.infoRowItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+    transition: text-decoration 0.3s ease;
+}
+
+a.infoRowItem:hover, a.infoRowItem:focus, a.infoRowItem:active {
+    text-decoration: underline;
+}
+
+.iconStar {
+    fill: var(--color-rating);
+}
+
+.iconLocation {
+    fill: var(--color-main)
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.gallery {
+    background-color: gray;
+    height: 312px;
+    margin-bottom: 28px;
+}
+
+.description {
+    color: var(--color-text)
+
+}

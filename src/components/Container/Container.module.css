@@ -1,10 +1,9 @@
 .container {
-    margin: 0 auto;
     box-sizing: border-box;
     max-width: 1440px;
-    padding-left: 64px;
-    padding-right: 64px;
     width: 100%;
+    padding: 48px 64px;
+    margin: 0 auto;
 }
 
 /* Laptops/Tablets - smaller than 1440px */

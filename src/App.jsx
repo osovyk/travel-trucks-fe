@@ -8,7 +8,7 @@ import Loader from './components/Loader/Loader.jsx';
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const CatalogPage = lazy(() => import('./pages/CatalogPage/CatalogPage.jsx'));
 const CamperDetailsPage = lazy(() => import('./pages/CamperDetailsPage/CamperDetailsPage.jsx'));
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage.jsx'));
 
 export default function App() {
   return (
